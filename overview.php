@@ -1,0 +1,1 @@
+We developed a novel computational algorithm, PATHOME, for detecting differentially expressed biological pathways. This algorithm employs straightforward statistical tests to evaluate the significance of differential expression patterns along subpathways. 
