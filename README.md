@@ -1,3 +1,7 @@
-# pathome
+# Pathome-drug
 PATHOME-drug web repository
-# pathome-drug
+
+## Install
+1. Pull the repository.
+2. Unzip pathways.7z using 7zip.
+3. Create 'tasks' and 'jobs' directories with 777 permission.
