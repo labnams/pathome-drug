@@ -4,7 +4,7 @@ PATHOME-Drug is a web-based interfarce that implements network-aware statistical
  - A bootstrapping subgraphs of KEGG pathways for PATHOME-Drug web interface, and
  - R codes that were used in the PATHOME-Drug paper.
 
-If there is any question, plase contact via the following address.
+If there is any question or problem on the contents, plase contact via the following address.
  - Seungyoon Nam, seungyoon.nam@gmail.com)
  
 ## PATHOME-Drug interface
