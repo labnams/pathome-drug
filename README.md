@@ -40,7 +40,7 @@ To execute R codes that were used in the PATHOME-Drug paper, the followings are 
 4. Open the browser and connect to the website.
 
 ## R codes for the paper
-The R codes include the following functionalities for producing the results of the paper.
+The R codes include the following functionalities for producing the results of the paper. Note that the R code requires the aforementioned requirements.
 1. Download the KEGG pathway graphs for performing the simulation.
 2. Generate the simulation dataset under the specified parameters.
 3. Perform the analyses using PATHOME-Drug, WebGestalt and ClusterProfiler.
