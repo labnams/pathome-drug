@@ -16,7 +16,10 @@ The PATHOME-Drug web interface is provided as either of
 To use PATHOME-Drug web-based interface locally, the followings are required.
  - FreeBSD 8
  - PHP version 7 or greater
- - Perl version 5 or greater
+ - Perl version 5 or greater, including the following perl modules:
+   - Getopt::Long
+   - Data::Dumper
+   - Statistics::Descriptive;
  - R version 3.3.3 or greater, including the following R packages:
    - getopt
    - R.utils
@@ -36,8 +39,10 @@ To execute R codes that were used in the PATHOME-Drug paper, the followings are 
 ## PATHOME-Drug install
 1. Clone the repository into the destionation directory where the web server can access from the web root.
 2. Unzip pathways.7z using 7zip to create the subgraph information that are used by the PATHOME-Drug.
-3. Create 'tasks' and 'jobs' directories with 777 permission so that the web server can write the files into the directories.
-4. Open the browser and connect to the website.
+3. Make sure the perl scripts in the bin directory to set their local library directory points to the correct path (was set to our absolute path, find the below text.
+> use lib '/var/www/software/pathome/lib'
+4. Create 'tasks' and 'jobs' directories with 777 permission so that the web server can write the files into the directories.
+5. Open the browser and connect to the website.
 
 ## R codes for the paper
 The R codes include the following functionalities for producing the results of the paper. Note that the R code requires the aforementioned requirements.
