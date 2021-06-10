@@ -34,7 +34,7 @@ To execute R codes that were used in the PATHOME-Drug paper, the followings are 
    - limma
 
 ## PATHOME-Drug install
-1. Pull the repository.
+1. Clone the repository into the destionation directory where the web server can access from the web root.
 2. Unzip pathways.7z using 7zip to create the subgraph information that are used by the PATHOME-Drug.
 3. Create 'tasks' and 'jobs' directories with 777 permission so that the web server can write the files into the directories.
 4. Open the browser and connect to the website.
