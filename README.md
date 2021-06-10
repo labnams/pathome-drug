@@ -5,7 +5,8 @@ PATHOME-Drug is a web-based interfarce that implements network-aware statistical
  - R codes that were used in the PATHOME-Drug paper.
 
 If there is any question or problem on the contents, plase contact via the following address.
- - Seungyoon Nam, seungyoon.nam@gmail.com)
+ - Seungyoon Nam, seungyoon.nam@gmail.com
+ - Sungyoung Lee, biznok@snu.ac.kr
  
 ## PATHOME-Drug interface
 The PATHOME-Drug web interface is provided as either of
